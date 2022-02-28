@@ -1,0 +1,36 @@
+NodeMon = nodemon
+Express
+CORS
+BodyParser
+DotEnv
+
+
+npm install -g nodemon /npm -i
+npm install -D nodemon
+
+npm install body-parser cors dotenv express
+
+.gitignore
+
+node src/index.js 
+nodemon src/index.js
+
+npm start
+
+็็็HTTP Verb
+- GET/POST/PUT/PATCH/DELETE
+
+app.GET  ดึงข้อมูล
+app.POST เพิ่มข้อมูล
+PUT  แก้ไขข้อมูล
+PATCH  แก้ไขข้อมูล (บางส่วน)
+DELETE ลบข้อมูล
+
+GET /       app/get("/",()=>{})
+GET /about  app.get("/about",()=>{})
+
+API Client
+ใช้ทดสอบ API บน metehod ต่างๆ (GET,POST,PUT,PATCH,DELETE)
+- VScode extension ====> Thunder Client
+
+
